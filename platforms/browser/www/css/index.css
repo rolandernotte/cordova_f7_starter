@@ -1,0 +1,35 @@
+.toolbar-inner div.center{
+    text-align: center;
+    width: 100%;
+}
+
+[data-name='findUs'] img{
+    max-width: 100%;
+}
+
+
+.swiper-container {
+    height: 100%;
+}
+
+.swiper-container img{
+    width: 100%;
+}
+
+.swiper-container span.label{
+    font-size: 21px;
+    color: rgba(255,255,255,0.5);
+    position: absolute;
+    top: 85%;
+    left:0;
+    width: 100%;
+    text-align: center;
+}
+
+.swiper-container .swiper-pagination{
+    position: absolute;
+    top: 90%;
+    left:0;
+    width: 100%;
+    text-align: center;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme pour statusbar (Android) -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Titre de l'app -->
+    <title>My App</title>
+    <!-- Chemin vers CSS de Framework7 -->
+    <link rel="stylesheet" href="lib/framework7/css/framework7.bundle.min.css">
+    <!-- Chemin vers CSS de l'app-->
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+  <body>
+    <!-- Elément racine de l'app -->
+    <div id="app">
+
+      <!-- Vue principale, doit avoir la classe "view-main" -->
+      <div class="view view-main">
+        <!-- Page initiale, "data-name" contient le nom de la page -->
+        <div data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <div class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner">
+              <div class="left">
+              </div>
+              <div class="title">Cordova Framework7 Starter</div>
+              <div class="right"></div>
+            </div>
+          </div>
+
+
+          <!-- Contenu de page 'scrollable' -->
+          <div class="page-content">
+				Cordova Framework7 Starter
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Chemin vers bibliothèque Cordova phantôme -->
+    <script type="text/javascript" src="cordova.js"></script>
+
+    <!-- Chemin vers JS de Framework7 -->
+    <script type="text/javascript" src="lib/framework7/js/framework7.bundle.min.js"></script>
+    <!-- Chemin vers JS de l'app -->
+    <script type="text/javascript" src="js/index.js"></script>
+  </body>
+</html>

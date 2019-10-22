@@ -1,0 +1,12 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Jardin Gourmand",
+  "short_name": "Jardin Gourmand",
+  "version": "be.rern.jg",
+  "description": "Un essai simple avec Cordova et Framework7",
+  "author": "Rol",
+  "icons": [],
+  "start_url": "index.html",
+  "theme_color": "#2196f3"
+}
