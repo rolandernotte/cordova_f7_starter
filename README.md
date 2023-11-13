@@ -1,4 +1,4 @@
-# Cordova Framework7-v7 Starter
+# Cordova Framework7-v8 Starter
 
 ## Cequoissa ?
 
